@@ -80,6 +80,7 @@
 
     .navRight button{
         padding: 8px 25px;
+        
     }
 }
 
@@ -109,6 +110,22 @@
     
     .navMenu{
         display: none;
+    }
+    
+}
+
+@media (max-width:360px ) {
+    
+    .navMenu{
+        display: none;
+    }
+    .navBar .logo{
+        width: 80px !important;
+        margin-right: 20px;
+    }
+    .navRight button {
+        padding: 6px 8px;
+        font-size: 10px;
     }
     
 }
